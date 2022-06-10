@@ -1,0 +1,228 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+	background-color: #272727;
+}
+li {
+	display: inline;
+	margin-right: 80px;
+	margin-left: 80px;
+	font-family: 'IRANSans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	color: #FFFFFF;
+  }
+a{
+	text-decoration: none;
+	color: #FFFFFF;	
+}
+  ul {
+	width: 100%;
+	height: 78px;	
+	background: rgba(28, 184, 194, 0.5);
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+#uiDiv{
+	padding-top: 10px;
+}
+#greenC{
+	position: absolute;
+	left: 0px;
+	opacity: 20%;
+}
+#yellowC{
+	position: absolute;
+	bottom: 0px;
+	opacity: 10%;
+}
+#pC{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+#headText{
+/* خرید ارز دیجیتال به صورت مستقیم، ساده، سریع، حرفه ای و امن */
+
+
+position: absolute;
+right: 30px;
+margin-top: 200px;
+height: 173px;
+font-family: 'KalamehWeb';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+
+color: #0047D1;
+
+text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+p{
+	
+position: absolute;
+width: 668px;
+height: 121px;
+right: 30px;
+top: 415px;
+
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 39px;
+text-align: right;
+
+color: #FFFFFF;
+}
+#gotoform{
+	position: absolute;
+width: 251px;
+height: 76px;
+right: 30px;
+top: 570px;
+font-family: IRANSans;
+font-size: 25px;
+font-weight: 900;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+
+background: linear-gradient(180deg, #4383FF 0%, #2061DE 178.29%);
+border-radius: 22px;
+}
+#bay{
+box-sizing: border-box;
+position: absolute;
+font-family: IRANSans;
+font-size: 25px;
+font-weight: 900;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+width: 326px;
+height: 82px;
+right: 30px;
+top: 670px;
+background: rgba(217, 217, 217, 0.01);
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+}
+#baybox{
+	box-sizing: border-box;
+
+position: absolute;
+width: 386px;
+height: 537px;
+left: 205px;
+top: 218px;
+
+background: rgba(217, 217, 217, 0.2);
+border: 0.5px solid #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(90px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 17px;
+}
+#LOL{
+	position: absolute;
+width: 202px;
+height: 202px;
+left: 485px;
+top: 635px;
+border-radius: 300px;
+background: linear-gradient(330.74deg, #0047D1 -6.98%, #71A1FF 138.38%)
+}
+#LOL2{
+	position: absolute;
+width: 270px;
+height: 270px;
+left: 118px;
+top: 160px;
+border-radius: 300px;
+background: linear-gradient(330.74deg, #0047D1 -6.98%, #71A1FF 138.38%);
+}
+#inpone{
+	box-sizing: border-box;
+	background: rgba(217, 217, 217, 1e-05);
+position: absolute;
+width: 334px;
+height: 56px;
+left: 30px;
+top: 120px;
+font-family: KalamehWeb;
+font-size: 16px;
+font-weight: 900;
+line-height: 27px;
+letter-spacing: 0.08em;
+text-align: left;
+
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+color: white;
+}
+#inpone2{
+	box-sizing: border-box;
+	background: rgba(217, 217, 217, 1e-05);
+position: absolute;
+width: 334px;
+height: 56px;
+left: 30px;
+top: 250px;
+font-family: KalamehWeb;
+font-size: 16px;
+font-weight: 900;
+line-height: 27px;
+letter-spacing: 0.08em;
+text-align: left;
+
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+color: white;
+}
+h2{
+
+	position: absolute;
+	width: 329px;
+	height: 70px;
+	left: 45px;
+	top: 10px;
+	
+	font-family: 'KalamehWeb';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 68px;
+	text-align: center;
+	letter-spacing: 0.08em;
+	
+	color: #FFFFFF;	
+}
+#baynow{
+	position: absolute;
+width: 251px;
+height: 76px;
+left: 80px;
+top: 400px;
+font-family: KalamehWeb;
+font-size: 32px;
+font-weight: 900;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+background: linear-gradient(180deg, #4383FF 0%, #2061DE 178.29%);
+border-bottom: 8px solid #2B58B0;
+border-radius: 22px;
+}
+input, textarea { 
+	unicode-bidi:bidi-override; 
+	direction: "RTL"; 
+   }
