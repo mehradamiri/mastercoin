@@ -1,45 +1,71 @@
 <!DOCTYPE html>
-<html  dir="rtl" lang="ar>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>mastercoin</title>
     <link rel="stylesheet" href="asset/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="asset/style/style.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body >
+<body>
+    <nav class="navbar navbar-expand-md bg-light-green navbar-dark" dir="rtl">
+        <a class="navbar-brand navbar-logo-size" href="#"><img src="asset/img/mcLogo.svg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item nav-text">
+              <a class="nav-link" style="color: white;" style="color: white;" href="#">بازار</a>
+            </li>
+            <li class="nav-item nav-text">
+              <a class="nav-link" style="color: white;" href="#">تبادل سریع</a>
+            </li>
+            <li class="nav-item nav-text">
+              <a class="nav-link" style="color: white;" href="#">خرید و فروش ارز</a>
+            </li>    
+            <li class="nav-item nav-text">
+                <a class="nav-link" style="color: white;" href="#">تماس با ما</a>
+              </li>    
+              <li class="nav-item nav-text">
+                <a class="nav-link" style="color: white;" href="#">درباره ما</a>
+              </li>    
+          </ul>
+        </div>  
+      </nav>
 <div>
-
-    <ul  class="d-block align-content-center ">
-        <div id="uiDiv">
-            <li> <a href="#"> <img src="asset/img/Group 2.svg"> </a> </li> 
-            <li> <a href="#">بازار</a> </li> 
-            <li> <a href="#">تبادل سریع</a> </li> 
-            <li> <a href="#">خرید و فروش ارز</a> </li> 
-            <li> <a href="#">خرید و فروش ارز</a> </li> 
-            <li> <a href="#">تماس با ما</a> </li> 
-            <li> <a href="#">درباره ما</a> </li> 
-        </div> 
-  
-    </ul>
-    <div id="greenC"> <img src="asset/img/greenC.svg" draggable="false"> </div>
-    <div id="yellowC"><img src="asset/img/yellowC.png"draggable="false"> </div>
-    <div id="pC"><img src="asset/img/pC.png"draggable="false"> </div>
-    <div>
-        <h1 id="headText">خرید ارز دیجیتال به صورت مستقیم، ساده، سریع،<br> حرفه ای و امن</h1>
-        <p>در کوین مستر از معامله آسان بیت کوین و سایر ارزهای دیجیتال در بازارهای تومان و دلار تتر با قیمت واقعی، بدون محدودیت و نیاز به واسطه لذت ببرید.</p>
-    </div>
-    <button id="gotoform">ثبت نام کنید</button><br>
-    <button id="bay">خرید فروش سریع</button>
-    <div id="LOL"></div>
-    <div id="LOL2"></div>
-    <div id="baybox">
-        <h2>خرید بیت کوین</h2>
-   <input dir="rtl"id="inpone">
-   <input dir="rtl" id="inpone2">
-   <button id="baynow">خرید</button>
-    </div>
-    <script src="asset/js/main.js"></script>
+  <img id="greenC" draggable="false" src="asset/img/greenC.png" alt="">
+  <img id="yellowC" draggable="false" src="asset/img/yellowC.png" alt="">
+  <img id="purpleC" draggable="false" src="asset/img/purpleC.png" alt="">
+</div>
+<div class="d-flex align-items-center justify-content-end" style="height: 100%;">
+  <div class="d-md-table" >
+      <h1 class="main-text" dir="rtl">خرید ارز دیجیتال به صورت مستقیم،<br>ساده، سریع، حرفه ای و امن</h1>   
+      <p  dir="rtl" id="more-info">در کوین مستر از معامله آسان بیت کوین و سایر ارزهای دیجیتال در<br>
+         بازارهای تومان و دلار تتر با قیمت واقعی، بدون محدودیت و نیاز به<br>
+          واسطه لذت ببرید.</p>
+  </div>  
+</div>
+<div class="d-flex justify-content-end">
+  <button class="main-btn">ثبت نام کنید</button>
+</div>
+<div class="blueC"></div>
+<div class="blueC2"></div>
+<div class="d-flex justify-content-end">
+  <button class="no-fill-btn">خرید فروش سریع</button>
+</div>
+<div id="panel" class="container chenge-coin-panel justify-content-center">
+  <h1 class="bay-bit-text">خرید بیت کوین</h1>
+ <div class="d-grid towinput justify-content-center">
+  <input> <br>
+  <input>
+  <h1 id="start-now">همین الان شروع کن </h1>
+  <button id="bay">خرید</button>
+</div>
+</div>
 </body>
 </html>

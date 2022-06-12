@@ -1,0 +1,212 @@
+.navbar-brand-size {
+    width: 50px;
+    height: 50px;
+}
+
+.bg-light-green {
+    background: rgba(28, 184, 194, 0.5);
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+body{
+    background-color: #272727;
+    overflow: hidden; 
+}
+
+.nav-text{
+    font-family: IRANSans;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    font-family: KalamehWeb;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.main-text{
+    color: #0047D1;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    margin-top: 100px;
+}
+
+#more-info{
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 39px;
+text-align: right;
+margin-right: 20px;
+color: #FFFFFF;
+}
+
+.main-btn{
+width: 251px;
+height: 76px;
+color: white;
+margin-right: 20px;
+background: linear-gradient(180deg, #4383FF 0%, #2061DE 178.29%);
+border-radius: 22px;
+font-family: IRANSans;
+font-size: 1.5rem;
+font-weight: 900;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.no-fill-btn{
+margin-right: 20px;
+margin-top: 10px;
+width: 326px;
+height: 82px;
+background: rgba(217, 217, 217, 0.01);
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+font-family: 'IRANSans';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 39px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.chenge-coin-panel{
+    width: 386px;
+    height: 537px;  
+    background: rgba(217, 217, 217, 0.2);
+    border: 0.5px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+    /* ro fire fox nist backdrop-filter*/
+    border-radius: 17px;
+}
+
+.bay-bit-text {
+    font-family: 'KalamehWeb';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    
+}
+
+input{
+width: 334px;
+height: 56px;
+margin-bottom: 30px;
+
+
+background: rgba(217, 217, 217, 1e-05);
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+}
+
+#panel{
+    position: absolute;
+    top: 190px;
+    left: 200px;
+}
+
+#start-now{
+font-family: 'KalamehWeb';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 54px;
+text-align: center;
+letter-spacing: 0.08em;
+margin-bottom: 35px;
+color: #F7931A;
+
+text-shadow: 0px 4px 23px rgba(247, 147, 26, 0.5);
+}
+
+#bay{
+height: 76px;
+border: none; 
+font-family: KalamehWeb;
+font-size: 32px;
+font-weight: 900;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+background: linear-gradient(180deg, #4383FF 0%, #2061DE 178.29%);
+border-bottom: 8px solid #2B58B0;
+border-radius: 22px;
+}
+
+.blueC{
+position: absolute;
+width: 270px;
+height: 270px;
+margin: -50px;
+left: 140px;
+top: 600px;
+border-radius: 200px;
+background: linear-gradient(330.74deg, #0047D1 -6.98%, #71A1FF 138.38%);
+}
+
+.blueC2{
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    margin: -50px;
+    left: 450px;
+    top: 150px;
+    border-radius: 200px;
+    background: linear-gradient(330.74deg, #0047D1 -6.98%, #71A1FF 138.38%);
+    }
+
+    @media only screen and (max-width: 600px) {
+    #panel{
+        position: relative;
+        margin-top: 20px;
+        top: auto;
+        left: auto;
+    }.blueC,.blueC2{
+    display: none;
+    visibility: hidden;
+    }
+}
+
+#greenC , #yellowC , #purpleC{
+    position: absolute; 
+    opacity: 30%;
+}
+#yellowC{
+    right: 0px;
+    bottom: 0px;
+    opacity: 20%;
+}
+#purpleC{
+    bottom: 0px;
+}
